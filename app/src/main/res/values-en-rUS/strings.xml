@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PersonasMaterial</string>
+    <string name="titulo_agregar">ADD</string>
+    <string name="precio">Price</string>
+    <string name="guardar">Save</string>
+    <string name="limpiar">Clean</string>
+    <string name="placa">Plate</string>
+    <string name="rojo">Red</string>
+    <string name="blanco">White</string>
+    <string name="azul">Blue</string>
+    <string name="negro">Black</string>
+    <string name="ferrari">Ferrari</string>
+    <string name="mazda">Mazda</string>
+    <string name="lexus">Lexus</string>
+    <string name="nissan">Nissan</string>
+    <string name="toyota">Toyota</string>
+    <string name="error_placa_uno">Type the plate</string>
+    <string name="error_placa_dos">This plate alredy exists</string>
+    <string name="error_precio_uno">Type the price</string>
+    <string name="error_precio_dos">The price must be greater than 0</string>
+    <string name="guardado_exitoso">data stored successfully</string>
+</resources>

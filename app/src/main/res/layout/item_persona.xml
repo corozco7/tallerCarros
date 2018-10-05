@@ -7,7 +7,7 @@
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="105dp"
         app:cardCornerRadius="10dp">
 
         <LinearLayout
@@ -17,8 +17,8 @@
 
             <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/foto"
-                android:layout_width="96dp"
-                android:layout_height="96dp"
+                android:layout_width="105dp"
+                android:layout_height="105dp"
                 android:src="@drawable/images" />
 
             <LinearLayout
@@ -27,16 +27,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/lblCedula"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="TextView"
-                    android:textAlignment="center"
-                    android:textSize="24sp"
-                    android:textStyle="bold" />
-
-                <TextView
-                    android:id="@+id/lblNombre"
+                    android:id="@+id/lblPlaca"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="TextView"
@@ -44,7 +35,23 @@
                     android:textSize="18sp" />
 
                 <TextView
-                    android:id="@+id/lblApellido"
+                    android:id="@+id/lblColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/lblMarca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/lblPrecio"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="TextView"

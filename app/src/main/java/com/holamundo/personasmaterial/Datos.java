@@ -3,14 +3,14 @@ package com.holamundo.personasmaterial;
 import java.util.ArrayList;
 
 public class Datos {
-    public static ArrayList<Persona> personas = new ArrayList();
+    public static ArrayList<Carro> carros = new ArrayList();
 
-    public static void agregar(Persona p){
-        personas.add(p);
+    public static void agregar(Carro p){
+        carros.add(p);
     }
 
-    public static ArrayList<Persona> obtener(){
-        return personas;
+    public static ArrayList<Carro> obtener(){
+        return carros;
     }
 
 }

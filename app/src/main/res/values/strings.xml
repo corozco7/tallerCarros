@@ -2,16 +2,35 @@
     <string name="app_name">PersonasMaterial</string>
     <string name="action_settings">Settings</string>
     <string name="titulo_agregar">AGREGAR</string>
-    <string name="cedula">Cédula</string>
-    <string name="nombre">Nombre</string>
-    <string name="apellido">Apellido</string>
+    <string name="precio">Precio</string>
     <string name="guardar">Guardar </string>
     <string name="limpiar">Limpiar</string>
-    <string name="masculino">Masculino</string>
-    <string name="femenino">Femenino</string>
-    <string name="guardado_exitoso">Persona Guardada Exitosamente</string>
-    <string-array name="sexo">
-        <item>@string/masculino</item>
-        <item>@string/femenino</item>
+    <string name="placa">Placa</string>
+    <string name="rojo">Rojo</string>
+    <string name="blanco">Blanco</string>
+    <string name="azul">Azul</string>
+    <string name="negro">Negro</string>
+    <string name="ferrari">Ferrari</string>
+    <string name="mazda">Mazda</string>
+    <string name="lexus">Lexus</string>
+    <string name="nissan">Nissan</string>
+    <string name="toyota">Toyota</string>
+    <string name="guardado_exitoso">Datos guardados exitosamente</string>
+    <string name="error_placa_uno">Digite la placa</string>
+    <string name="error_placa_dos">Esta placa ya existe</string>
+    <string name="error_precio_uno">Digite el precio</string>
+    <string name="error_precio_dos">El precio debe ser mayor a 0</string>
+    <string-array name="colores">
+        <item>@string/blanco</item>
+        <item>@string/azul</item>
+        <item>@string/negro</item>
+        <item>@string/rojo</item>
+    </string-array>
+    <string-array name="marcas">
+        <item>@string/ferrari</item>
+        <item>@string/mazda</item>
+        <item>@string/lexus</item>
+        <item>@string/nissan</item>
+        <item>@string/toyota</item>
     </string-array>
 </resources>
